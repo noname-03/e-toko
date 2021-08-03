@@ -20,6 +20,7 @@
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                 <thead>
                     <tr>
+                        <th>No</th>
                         <th>Name</th>
                         <th>Category</th>
                         <th>Price</th>
@@ -29,6 +30,7 @@
                 </thead>
                 <tfoot>
                     <tr>
+                        <th>No</th>
                         <th>Name</th>
                         <th>Category</th>
                         <th>Price</th>
@@ -39,6 +41,7 @@
                 <tbody>
                     @foreach ($products as $data)
                     <tr>
+                        <td>{{$loop->iteration}}</td>
                         <td>{{$data->name}}</td>
                         <td>{{$data->category->name}}</td>
                         <td>{{$data->price}}</td>

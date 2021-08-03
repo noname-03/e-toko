@@ -16,7 +16,7 @@ use App\Http\Controllers\CategoryController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/login');
 });
 Route::resource('product', ProductController::class);
 Route::resource('category', CategoryController::class);

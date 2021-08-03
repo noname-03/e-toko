@@ -54,7 +54,6 @@
                             </form>
                         </div>
                         <div class="sbp-preview-code">
-                        <div class="sbp-preview-text">The default Bootstrap form control states have been restyled to fit the SB Admin Pro theme. The style has changed, but the markup is identical.</div>
                     </div>
                 </div>
             </div>
