@@ -20,6 +20,8 @@
 
     <!-- Custom styles for this template-->
     <link href="{{ asset('dashboard') }}/css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="{{ asset('dashboard') }}/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+    @yield('link')
 
 </head>
 
@@ -312,6 +314,8 @@
     <!-- Page level custom scripts -->
     <script src="{{ asset('dashboard') }}/js/demo/chart-area-demo.js"></script>
     <script src="{{ asset('dashboard') }}/js/demo/chart-pie-demo.js"></script>
+    @yield('script')
+
 
 </body>
 
